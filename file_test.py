@@ -1,5 +1,7 @@
 # import pytest
 import numpy as np
+import math
+import random
 
 def test_calc_addition():
     # Fonction de test du résultat de 2 + 4
@@ -10,7 +12,7 @@ def test_calc_addition():
 def test_numpy():
     a = np.array([1, 2, 3, 4, 5])
     output = np.sum(a)
-    assert output == 3
+    assert output == 15
 
 
 def test_square():
