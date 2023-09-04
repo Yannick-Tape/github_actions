@@ -6,6 +6,11 @@ def test_calc_addition():
     assert output == 6
 
 
+def test_randint():
+    output = random.randint(1, 1)
+    assert output == 1
+    
+
 def test_calc_subtraction():
     # Fonction de test du résultat de 2 - 4
     output = 2 - 4
