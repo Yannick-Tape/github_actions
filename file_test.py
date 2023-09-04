@@ -6,6 +6,12 @@ def test_calc_addition():
     assert output == 6
 
 
+def test_numpy():
+    a = munpy.array([1, 2, 3, 4, 5])
+    output = numpy.sum(a)
+    assert output == 3
+
+
 def test_square():
     output = math.log(1)
     assert output == 0
