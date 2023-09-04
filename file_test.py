@@ -6,6 +6,11 @@ def test_calc_addition():
     assert output == 6
 
 
+def test_square():
+    output = math.log(1)
+    assert output == 0
+    
+
 def test_randint():
     output = random.randint(1, 1)
     assert output == 1
