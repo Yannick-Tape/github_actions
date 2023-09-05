@@ -1,3 +1,4 @@
+
 import math
 import random
 import numpy as np
@@ -41,3 +42,4 @@ def test_coucou():
     # Fonction de test si le résultat renvoie 'hello'
     output = "hello"
     assert output == "hello"
+    
