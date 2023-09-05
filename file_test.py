@@ -6,7 +6,7 @@ import numpy as np
 def test_calc_addition():
     # Fonction de test du résultat de 2 + 4
     output = 2 + 4
-    assert output == 7
+    assert output == 6
 
 
 def test_numpy():
