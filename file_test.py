@@ -18,12 +18,12 @@ def test_numpy():
 def test_square():
     output = math.log(1)
     assert output == 0
-    
+
 
 def test_randint():
     output = random.randint(1, 1)
     assert output == 1
-    
+
 
 def test_calc_subtraction():
     # Fonction de test du résultat de 2 - 4
